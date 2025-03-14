@@ -5,16 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>nose</title>
     <style>
-        /* Reset de márgenes y padding */
         * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
         }
         
-        /* Estilos generales */
         body {
             font-family: Arial, Helvetica, sans-serif;
+            padding-top: 80px; 
         }
 
         h4 {
@@ -22,46 +21,131 @@
             text-align: center;
         }
 
-        /* Estilos del header */
         .algo {
-            border-bottom: 2px dashed black;
-            background-color: black;
+            position: fixed;
+            top: 0;
+            left: 0;
             width: 100%;
-            height: 80px; /* Tamaño base para pantallas grandes */
+            height: 80px; 
+            background-color: black;
+            border-bottom: 2px dashed black;
             display: flex;
             align-items: center;
             justify-content: center;
-            padding: 10px; /* Agregar espacio alrededor del texto */
+            padding: 10px;
+            z-index: 1000;
         }
 
-        /* Estilos responsivos */
-        @media (max-width: 768px) { /* Para tablets y celulares */
+        
+        @media (max-width: 768px){
             .algo {
-                height: 60px; /* Reducimos el tamaño en pantallas pequeñas */
+                height: 60px;
             }
 
             h4 {
-                font-size: 16px; /* Ajustamos el tamaño del texto */
+                font-size: 16px;
+            }
+
+            body {
+                padding-top: 60px; 
             }
         }
 
-        @media (max-width: 480px) { /* Para celulares más pequeños */
+        @media (max-width: 480px) { 
             .algo {
                 height: 50px;
-                border-radius: 20px; /* Menos radio en móviles */
+                border-radius: 20px;
             }
 
             h4 {
                 font-size: 14px;
             }
+
+            body {
+                padding-top: 50px; 
+            }
+        }
+        
+        hr{
+            height: 10px;
+            background-color: #000000;
+            
         }
     </style>
 </head>
-<body>
+<body style="background-color:white;">
     <header class="algo">
         <h4>AVANCES TECNOLOGICOS EN JAPON</h4>
     </header>
+    <br>
+    <hr>
 
-    <h1>aaaaaa</h1>
-</body>
+    <br>
+    <p>
+        <strong>Japón se destaca como líder mundial en innovación tecnológica, realizando avances significativos en diversos campos. A continuación, se presentan algunas de las innovaciones más recientes y destacadas:</strong>
+    </p>
+    <br>
+    <p>
+        <strong>1. Desarrollo de un metamaterial superelástico</strong>
+        <br>
+Investigadores de la Universidad de Tohoku han creado una aleación de titanio y aluminio (Ti-Al) que mantiene su flexibilidad en temperaturas extremas, desde -269°C hasta +127°C. Este avance podría impactar industrias como la aeroespacial, médica y automotriz, gracias a su resistencia y elasticidad bajo condiciones extremas. 
+
+    </p>
+
+    <br>
+    <p>
+        <strong>
+            2. Células solares de perovskita de alta eficiencia
+        </strong>
+        La empresa japonesa Sekisui Chemical Co. está desarrollando células solares de perovskita (PSC) que podrían generar 20 gigavatios de electricidad, equivalente a la potencia de 20 reactores nucleares. Esta tecnología flexible es adecuada para entornos urbanos y podría instalarse en diversas superficies, contribuyendo al objetivo de Japón de alcanzar emisiones netas cero para 2050. 
+
+    </p>
+    <br>
+
+    <br>
+    <p>
+        <strong>
+            3. Avances en inteligencia artificial
+        </strong>
+        Japón busca posicionarse en la revolución de la inteligencia artificial (IA). SoftBank se ha aliado con OpenAI para lanzar SB OpenAI Japan, enfocada en ofrecer servicios de IA a clientes corporativos. Además, el gobierno japonés implementa programas como Society 5.0 para abordar problemas sociales y económicos utilizando tecnologías avanzadas, incluyendo IA y robótica. 
+    </p>
+    <br>
+
+    <br>
+    <p>
+        <strong>
+            4. Reactor de fusión nuclear JT-60SA
+
+        </strong>
+        El reactor de fusión nuclear JT-60SA, situado en Naka, ha sido certificado por los récord Guinness como el generador de plasma más grande del mundo, con un volumen de 160 metros cúbicos. Este dispositivo busca apoyar los objetivos técnicos de proyectos como ITER y DEMO, contribuyendo a futuros avances en la energía de fusión nuclear. 
+
+    </p>
+    <br>
+
+    <br>
+    <p>
+        <strong>
+            5. Bulldozer submarino de Komatsu
+
+        </strong>
+        La empresa japonesa Komatsu ha desarrollado un innovador bulldozer submarino capaz de operar a profundidades de hasta 50 metros. Presentado durante el CES 2025, esta tecnología representa un hito en la construcción submarina y refuerza la posición de la compañía en la industria de la construcción. 
+
+    </p>
+    <br>
+    <!--
+        
+
+
+
+
+
+
+
+
+
+
+Estas innovaciones reflejan el compromiso de Japón con el avance tecnológico y su influencia en los mercados globales, abarcando desde la robótica y la electrónica de consumo hasta la sostenibilidad ambiental y la exploración espacial.
+    -->
+
+    </body>
 </html>
