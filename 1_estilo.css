@@ -11,7 +11,7 @@ body {
 #container {
     width: 70%;
     margin: 0px auto;
-    border: 1px solid black;
+    border: 10px solid black;
 }
 
 header {
@@ -25,16 +25,17 @@ header {
 
 nav {
     background: lightblue;
-    height: 50px;
+    min-height: 50px;
     border-bottom: solid black;
 }
 
 nav ul li {
-    float: left;
-    list-style: none;
-    margin: 10px;
-    line-height: 30px;
+    list-style:none;
+    margin-left: 5px;
+    line-height: 100px;
+    
 }
+
 
 .clearfix {
     clear: both;
@@ -91,6 +92,5 @@ h3 {
 }
 .bla a{
     color: white;
-    border-color: black;
-    border-bottom: blanchedalmond;
+    
 }
