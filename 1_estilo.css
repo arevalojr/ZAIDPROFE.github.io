@@ -11,22 +11,22 @@ body {
 #container {
     width: 70%;
     margin: 0px auto;
-    border: 10px solid black;
+    border: 12px solid black;
+    border-radius: 20px;
 }
 
 header {
-    background: red;
+    background: whitesmoke;
     height: 100px;
     width: 100%;
     text-align: center;
     line-height: 100px;
-    border-bottom: dashed black;
+    border-bottom: solid black;
 }
 
 nav {
-    background: lightblue;
+    background: #666;
     min-height: 50px;
-    border-bottom: solid black;
 }
 
 nav ul li {
@@ -34,6 +34,12 @@ nav ul li {
     margin-left: 5px;
     line-height: 100px;
     
+}
+
+nav ul hr{
+    background-color: black;
+    border: 1px dashed black;
+    height: 3px;
 }
 
 
@@ -88,7 +94,7 @@ h3 {
 }
 
 .blu{
-    color: blue;
+    color: red;
 }
 .bla a{
     color: white;
