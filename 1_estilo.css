@@ -30,13 +30,13 @@ nav {
 }
 
 nav ul li {
-    list-style:none;
+    list-style: none;
     margin-left: 5px;
     line-height: 100px;
-    
+
 }
 
-nav ul hr{
+nav ul hr {
     background-color: black;
     border: 1px dashed black;
     height: 3px;
@@ -93,10 +93,11 @@ h3 {
     padding: 10px;
 }
 
-.blu{
+.blu {
     color: red;
 }
-.bla a{
+
+.bla a {
     color: white;
-    
+
 }
