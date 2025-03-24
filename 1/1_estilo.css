@@ -1,0 +1,103 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background: lightgray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#container {
+    width: 70%;
+    margin: 0px auto;
+    border: 12px solid black;
+    border-radius: 20px;
+}
+
+header {
+    background: whitesmoke;
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    line-height: 100px;
+    border-bottom: solid black;
+}
+
+nav {
+    background: #666;
+    min-height: 50px;
+}
+
+nav ul li {
+    list-style: none;
+    margin-left: 5px;
+    line-height: 100px;
+
+}
+
+nav ul hr {
+    background-color: black;
+    border: 1px dashed black;
+    height: 3px;
+}
+
+
+.clearfix {
+    clear: both;
+}
+
+#content {
+    float: left;
+    width: 97.5%;
+    background: green;
+    min-height: 500px;
+    padding: 10px;
+}
+
+aside {
+    float: left;
+    width: calc(20% - 20px);
+    background: orange;
+    min-height: 500px;
+    padding: 10px;
+}
+
+footer {
+    background: black;
+    color: white;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+}
+
+.article:first-child {
+    border-top: 1px solid #eee;
+    padding-top: 10px;
+}
+
+.article h2 {
+    font-size: 25px;
+}
+
+.article {
+    color: white;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+}
+
+h3 {
+    color: white;
+    padding: 10px;
+}
+
+.blu {
+    color: red;
+}
+
+.bla a {
+    color: white;
+
+}
